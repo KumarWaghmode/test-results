@@ -1,1 +1,240 @@
-<html><body><p>Hello World</p></body></html>
+
+        <html>
+        <head>
+            <title>build/test-results/test/TEST-com.timetracker.TimetrackerApplicationTests.xml - Junit Test Report</title>
+            <style type="text/css">
+              h1 {
+    font-family: sans-serif;
+}
+h2 {
+    font-family: sans-serif;
+}
+
+li > a {
+    font-family: monospace;
+}
+
+body {
+    margin-bottom: 3em;
+}
+
+.testclass > td {
+    border-bottom: 1px solid silver;
+    color: #222222;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.testclass > div {
+    padding-left: 1em;
+}
+
+.testclass > a > div {
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+.testcase > div {
+    border-left: 3px solid black;
+    padding-left: 1em;
+}
+
+.testcase pre {
+    display: block;
+    padding: 4px;
+    margin-right: 1em;
+    background-color: #121212;
+    color: #dedede;
+    white-space: pre-wrap;
+}
+
+.testcase .details b {
+    font-size: 1.2em;
+}
+
+.stdout, .stderr, .property {
+    margin-left: 1em;
+}
+
+.testcase-link {
+    text-decoration: none;
+}
+
+.testcase-cell {
+    height: 1.8em;
+    width: 1.8em;
+    vertical-align: middle;
+    text-align: center;
+}
+.testcase-cell a {
+    display: inline-block;
+    margin: -1em;
+    padding: 1em;
+}
+
+.testcase-combined {
+    white-space: pre;
+    padding-left: 1em;
+}
+
+.skipped {
+    background-color: gold;
+}
+
+.failed {
+    background-color: lightcoral;
+}
+
+.passed {
+    background-color: limegreen;
+}
+
+.tooltip {
+    visibility: hidden;
+    padding: 2px;
+    z-index: 1;
+    position: absolute;
+    background: cornsilk;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    opacity: 0;
+}
+.tooltip-parent:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.testcase:hover {
+    background-color: gray;
+    color: white;
+}
+
+.result-stats {
+    margin: auto;
+}
+
+            </style>
+        </head><body><h1>Test Report</h1>
+        <div class="testsuite">
+            <h2>Test Suite: com.timetracker.TimetrackerApplicationTests</h2><a name="7241d0d7-34c1-4169-af7f-3cdbda2a0cfc">
+            
+            
+            <table>
+            <tr><th align="left">Duration</th><td align="right">0.537 sec</td></tr>
+            <tr><th align="left">Test Cases</th><td align="right">1</td></tr>
+            <tr><th align="left">Failures</th><td align="right">0</td></tr>
+            
+            <tr><th colspan='2' align='left'>Output</th></tr><tr><td>Stdout</td><td><pre>15:22:59.458 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:22:59.490 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:22:59.544 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.timetracker.TimetrackerApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:22:59.575 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.timetracker.TimetrackerApplicationTests], using SpringBootContextLoader
+15:22:59.582 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.timetracker.TimetrackerApplicationTests]: class path resource [com/timetracker/TimetrackerApplicationTests-context.xml] does not exist
+15:22:59.583 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.timetracker.TimetrackerApplicationTests]: class path resource [com/timetracker/TimetrackerApplicationTestsContext.groovy] does not exist
+15:22:59.584 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.timetracker.TimetrackerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:22:59.585 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.timetracker.TimetrackerApplicationTests]: TimetrackerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:22:59.648 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.timetracker.TimetrackerApplicationTests]
+15:22:59.753 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/tmp/build/f541ec31/bootcamp-git/timetrackerbackend/build/classes/kotlin/main/com/timetracker/TimetrackerApplication.class]
+15:22:59.755 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.timetracker.TimetrackerApplication for test class com.timetracker.TimetrackerApplicationTests
+15:22:59.923 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.timetracker.TimetrackerApplicationTests]: using defaults.
+15:22:59.924 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:22:59.952 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@bb1b418, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6940ab29, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2e074023, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c36f160, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a219b8a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16d46e04, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@24622a5, org.springframework.test.context.event.EventPublishingTestExecutionListener@49306e7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3fbb411b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@a2abca6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@394af44c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@73432e97, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@16951a7d]
+15:22:59.961 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@50f5333f testClass = TimetrackerApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a4395d6 testClass = TimetrackerApplicationTests, locations = '{}', classes = '{class com.timetracker.TimetrackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@56e59874, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@e29bc, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@39656308, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@36ab6a74], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+15:23:00.009 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2020-01-02 15:23:00.667  INFO 250 --- [    Test worker] c.t.TimetrackerApplicationTests          : Starting TimetrackerApplicationTests on 4db78241-6271-478a-7f0d-5fccfb196c55 with PID 250 (started by root in /tmp/build/f541ec31/bootcamp-git/timetrackerbackend)
+2020-01-02 15:23:00.671  INFO 250 --- [    Test worker] c.t.TimetrackerApplicationTests          : No active profile set, falling back to default profiles: default
+2020-01-02 15:23:01.431  WARN 250 --- [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-01-02 15:23:01.900  INFO 250 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-02 15:23:02.035  INFO 250 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 1 repository interfaces.
+2020-01-02 15:23:03.807  INFO 250 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-02 15:23:03.807  INFO 250 --- [    Test worker] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2020-01-02 15:23:03.934  INFO 250 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:609) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 3 common frames omitted
+
+2020-01-02 15:23:04.104  WARN 250 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-01-02 15:23:04.104  WARN 250 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-01-02 15:23:04.263  WARN 250 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-01-02 15:23:04.264  WARN 250 --- [    Test worker] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-01-02 15:23:05.742  INFO 250 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-02 15:23:06.264  INFO 250 --- [    Test worker] c.t.TimetrackerApplicationTests          : Started TimetrackerApplicationTests in 6.24 seconds (JVM running for 9.521)
+</pre></td></tr>
+            </table>
+            <a name="toc"></a>
+            <h2>Results Index</h2>
+            
+        <ul>
+            
+            
+            <li>All Test Classes
+            <ul>
+            <li>
+                <a href="#01f5f77a-c963-4587-9ea6-97bb42584d41">com.timetracker.TimetrackerApplicationTests</a>
+                <ul>
+                
+                    <li>
+                        <a href="#5c64a2e5-5f92-4c3b-aa06-86a2852f9f41">contextLoads()</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            </ul>
+            </li>
+        </ul>
+        
+            <hr size="2"/>
+            <h2>Test Results</h2>
+            <div class="testclasses">
+            
+        <hr size="2"/>
+        <a name="01f5f77a-c963-4587-9ea6-97bb42584d41">
+        <div class="testclass">
+            <div>Test Class: com.timetracker.TimetrackerApplicationTests</div>
+            <div class="testcases">
+            
+    <a name="5c64a2e5-5f92-4c3b-aa06-86a2852f9f41">
+        <div class="testcase">
+            <div class="details">
+                <span class="testname"><b>contextLoads()</b></span><br/>
+                <span class="testclassname">com.timetracker.TimetrackerApplicationTests</span><br/>
+                <span class="duration">Time Taken: 0.537s</span>
+            </div>
+            
+            
+            <hr size="1"/>
+            
+            
+        </div>
+    </a>
+        
+            </div>
+        </div>
+        </a>
+        
+            </div>
+        </div>
+        </body></html>
