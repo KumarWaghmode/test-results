@@ -5,5 +5,8 @@
   "description": "A testbed for unit testing Node",
   "scripts": {
     "test": "jest --coverage"
-  }
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
 }
